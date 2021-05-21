@@ -1,0 +1,26 @@
+{
+  "name": "WeatherApp_JS_Project",
+  "version": "1.0.0",
+  "description": "Languages and Tools used: - HTML - CSS - Javascript - Git - Github - npm - webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceddah/WeatherApp_JS_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceddah/WeatherApp_JS_Project/issues"
+  },
+  "homepage": "https://github.com/ceddah/WeatherApp_JS_Project#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.5",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
