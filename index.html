@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <title>Weather App</title>
+</head>
+<body>
+  <h1 class="info-text">Mobile only App!</h1>
+  <div id="weather-app">
+    <!-- Navigation -->
+    <nav id="nav">
+      <div class="menu">
+        <button class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="dark-mode-button">
+        <div class="moon-icon">
+          <i class="fas fa-moon"></i>
+          <div class="circle"></div>
+          <div class="circle-light"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- Menu -->
+    <aside id="menu">
+      <button class="btn-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <section>
+        <h2>COMING SOON...</h2>
+        <p class="copyright">Copyright 2021 &copy; ceddah</p>
+      </section>
+    </aside>
+    <!-- Preloader -- Spinner -->
+    <div class="preloader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+    <!-- Main Section -->
+    <main id="main"></main>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
